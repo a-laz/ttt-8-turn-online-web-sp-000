@@ -112,7 +112,7 @@ describe './lib/turn.rb' do
       expect(self).to receive(:gets).and_return("1")
       expect(self).to receive(:valid_move?).with(board, 0).and_return(true)
 
-      
+
     end
 
     it 'asks for input again after a failed validation' do
